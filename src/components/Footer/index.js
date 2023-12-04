@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+
 import { Bio } from "../../data/constants";
 
 const FooterContainer = styled.div`
@@ -94,11 +96,14 @@ function Footer() {
           <NavLink href="#education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.whatsapp} target="display">
-            <WhatsAppIcon />
+          <SocialMediaIcon href={Bio.github} target="display">
+            <GitHubIcon />
           </SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display">
             <LinkedInIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.whatsapp} target="display">
+            <WhatsAppIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>&copy; 2023 Sanjula Dulshan. All rights reserved.</Copyright>

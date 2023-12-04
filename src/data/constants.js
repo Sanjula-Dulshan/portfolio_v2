@@ -10,7 +10,7 @@ export const Bio = {
     "A dedicated and forward-thinking individual on the cusp of completing the final year as a BSc(Hons) student in Information Technology, specializing in Software Engineering at SLIIT. With a year of professional experience already under the belt, including an internship and the current role as an Associate Software Engineer, there has been immersion in the world of web application development and deployment.",
   github: "https://github.com/Sanjula-Dulshan",
   resume:
-    "https://drive.google.com/file/d/1oR3JwrTtTTXuwmw8KsNhbR9PwOctGzT_/view?usp=sharing",
+    "https://drive.google.com/file/d/1A8N5826E8-s5_Ce06yiG0X2QNhCH4lI9/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/sanjula-dulshan-154329203/",
 
   whatsapp: "https://api.whatsapp.com/send?phone=94719647830",
