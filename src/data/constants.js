@@ -7,10 +7,10 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "A dedicated and forward-thinking individual on the cusp of completing the final year as a BSc(Hons) student in Information Technology, specializing in Software Engineering at SLIIT. With a year of professional experience already under the belt, including an internship and the current role as an Associate Software Engineer, there has been immersion in the world of web application development and deployment.",
+    "Enthusiastic technology aficionado with 1.5 years of hands-on experience in web application development. Proficient in AWS, ReactJS, Angular, Nest JS,React Native, Android Studio, and Node JS. Eager to expand my skills and contribute to cutting-edge software development. Let's embark on a journey of innovation and code!",
   github: "https://github.com/Sanjula-Dulshan",
   resume:
-    "https://drive.google.com/file/d/1A8N5826E8-s5_Ce06yiG0X2QNhCH4lI9/view?usp=sharing",
+    "https://drive.google.com/file/d/1NE49nptuUDGUx6S_of7K6Yt6rTF1trmy/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/sanjula-dulshan-154329203/",
 
   whatsapp: "https://api.whatsapp.com/send?phone=94719647830",
