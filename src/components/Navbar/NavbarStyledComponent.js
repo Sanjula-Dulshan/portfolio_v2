@@ -51,7 +51,7 @@ export const NavItems = styled.ul`
   padding: 0 6px;
   list-style: none;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1140px) {
     display: none;
   }
 `;
@@ -89,7 +89,32 @@ export const GitHubButton = styled.a`
     background: ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.white};
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1140px) {
+    font-size: 14px;
+  }
+`;
+
+export const HackerRankButton = styled.a`
+  border: 1.8px solid ${({ theme }) => theme.primary};
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 70%;
+  border-radius: 20px;
+  color: ${({ theme }) => theme.primary};
+  cursor: pointer;
+  padding: 0 20px;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 10px;
+
+  transition: all 0.6s ease-in-out;
+  :hover {
+    background: ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.white};
+  }
+  @media screen and (max-width: 1140px) {
     font-size: 14px;
   }
 `;
@@ -101,14 +126,14 @@ export const ButtonContainer = styled.div`
   justify-content: end;
   align-items: center;
   padding: 0 6px;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1140px) {
     display: none;
   }
 `;
 
 export const MobileIcon = styled.div`
   display: none;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1140px) {
     display: block;
     position: absolute;
     top: 0;
