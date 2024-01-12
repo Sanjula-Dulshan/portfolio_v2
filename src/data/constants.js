@@ -7,11 +7,11 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "Enthusiastic technology aficionado with 1.5 years of hands-on experience in web application development. Proficient in AWS, React JS, Next JS, Angular, Nest JS,React Native, Android Studio, Node JS, Agile and Jira. Eager to expand my skills and contribute to cutting-edge software development. Let's embark on a journey of innovation and code!",
+    "I am an optimistic and creative full-stack engineer with 2+ years of experience in most javaScript-related technologies in backend development. Also, I have experience in React and Angular with front-end development. I'm highly skilled at understanding key requirements and providing unique and creative solutions to meet customer requirements best. I'm continuously learning all the things I would like to do in the future.",
   github: "https://github.com/Sanjula-Dulshan",
   hackerRank: "https://www.hackerrank.com/profile/sdulshan10",
   resume:
-    "https://drive.google.com/file/d/13JlffeEUGmwgsnb5wOE4bK8hmiguWp1Y/view?usp=sharing",
+    "https://drive.google.com/file/d/1cIrNMAB7v5Z0w8LoFd0UmZ44CRa_wPO-/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/sanjula-dulshan-154329203/",
 
   whatsapp: "https://api.whatsapp.com/send?phone=94719647830",
@@ -230,9 +230,9 @@ export const education = [
     id: 0,
     img: "https://res.cloudinary.com/waste123/image/upload/v1696448090/portfolio/Icons/hubl1ghghfo74pvwrbnh.jpg",
     school: "Sri Lanka Institute of Information Technology",
-    date: "Feb 2020 - Present",
+    date: "Jan 2020 - Jan 2024",
     grade: "3.33 CGPA",
-    desc: "I am currently pursuing a BSc (Hons) in Information Technology Specialising in Software Engineering at SLIIT",
+    desc: "I graduated from SLIIT with a BSc (Hons) in Information Technology",
   },
 ];
 
