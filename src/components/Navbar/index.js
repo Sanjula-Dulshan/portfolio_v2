@@ -11,6 +11,7 @@ import {
   MobileIcon,
   MobileMenu,
   MobileLink,
+  HackerRankButton,
 } from "./NavbarStyledComponent";
 import { DiCssdeck } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
@@ -51,6 +52,9 @@ const Navbar = () => {
           <NavLink href="#education">Education</NavLink>
         </NavItems>
         <ButtonContainer>
+          <HackerRankButton href={Bio.hackerRank} target="_blank">
+            HackerRank
+          </HackerRankButton>
           <GitHubButton href={Bio.github} target="_blank">
             Github Profile
           </GitHubButton>
@@ -97,6 +101,18 @@ const Navbar = () => {
             >
               Education
             </MobileLink>
+            <HackerRankButton
+              style={{
+                padding: "10px 16px",
+                background: `${theme.primary}`,
+                color: "white",
+                width: "max-content",
+              }}
+              href={Bio.hackerRank}
+              target="_blank"
+            >
+              HackerRank
+            </HackerRankButton>
             <GitHubButton
               style={{
                 padding: "10px 16px",

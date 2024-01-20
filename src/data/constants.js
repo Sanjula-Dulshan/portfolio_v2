@@ -7,10 +7,11 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "A dedicated and forward-thinking individual on the cusp of completing the final year as a BSc(Hons) student in Information Technology, specializing in Software Engineering at SLIIT. With a year of professional experience already under the belt, including an internship and the current role as an Associate Software Engineer, there has been immersion in the world of web application development and deployment.",
+    "I am an optimistic and creative full-stack engineer with 2+ years of experience in most javaScript-related technologies in backend development. Also, I have experience in React and Angular with front-end development. I'm highly skilled at understanding key requirements and providing unique and creative solutions to meet customer requirements best. I'm continuously learning all the things I would like to do in the future.",
   github: "https://github.com/Sanjula-Dulshan",
+  hackerRank: "https://www.hackerrank.com/profile/sdulshan10",
   resume:
-    "https://drive.google.com/file/d/1A8N5826E8-s5_Ce06yiG0X2QNhCH4lI9/view?usp=sharing",
+    "https://drive.google.com/file/d/17YKdxbir9YT8pEbhX9_BO9W0h0D6u6c7/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/sanjula-dulshan-154329203/",
 
   whatsapp: "https://api.whatsapp.com/send?phone=94719647830",
@@ -154,7 +155,7 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "https://res.cloudinary.com/waste123/image/upload/v1704184231/portfolio/Icons/dogaejdaztqyis49n1g2.png",
       },
       {
         name: "GitHub",
@@ -170,7 +171,7 @@ export const skills = [
       {
         name: "Postman",
         image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+          "https://res.cloudinary.com/waste123/image/upload/v1704184280/portfolio/Icons/icu0xa1i1hklspdoznxz.png",
       },
     ],
   },
@@ -184,7 +185,16 @@ export const experiences = [
     company: "eBuilder Technology Center Pvt Ltd.",
     date: "Jun 2022 - Dec 2022",
     desc: "Working on Web application using ReactJS, NodeJS, DynamoDB, and AWS. Following Agile Methodology",
-    skills: ["AWS", "ReactJS", "Node Js", "DynamoDB"],
+    skills: [
+      "AWS",
+      "ReactJS",
+      "Node Js",
+      "DynamoDB",
+      "Git",
+      "Code Commit",
+      "Agile",
+      "Jira",
+    ],
   },
   {
     id: 1,
@@ -193,16 +203,25 @@ export const experiences = [
     company: "eBuilder Technology Center Pvt Ltd.",
     date: "Dec 2022 - Jun 2023",
     desc: "Working on Web application using ReactJS, NodeJS, DynamoDB, and AWS. Following Agile Methodology",
-    skills: ["AWS", "ReactJS", "Node Js", "DynamoDB", "Git", "Code Commit"],
+    skills: [
+      "AWS",
+      "ReactJS",
+      "Node Js",
+      "DynamoDB",
+      "Git",
+      "Code Commit",
+      "Agile",
+      "Jira",
+    ],
   },
   {
     id: 2,
     img: "https://res.cloudinary.com/waste123/image/upload/v1696447681/portfolio/Icons/eyhr3ayfst4hgmkneyhy.jpg",
     role: "Associate Software Engineer",
     company: "EchonLabs (Pvt) Ltd",
-    date: "June 2023 - Present",
+    date: "June 2023 - Dec 2023",
     desc: "Working on Web application using Angular, NestJS, and MongoDB",
-    skills: ["Angular", "Nest Js", "MongoDB", "Git Lab"],
+    skills: ["Angular", "Nest Js", "MongoDB", "Git Lab", "Agile"],
   },
 ];
 
@@ -211,9 +230,9 @@ export const education = [
     id: 0,
     img: "https://res.cloudinary.com/waste123/image/upload/v1696448090/portfolio/Icons/hubl1ghghfo74pvwrbnh.jpg",
     school: "Sri Lanka Institute of Information Technology",
-    date: "Feb 2020 - Present",
+    date: "Jan 2020 - Jan 2024",
     grade: "3.33 CGPA",
-    desc: "I am currently pursuing a BSc (Hons) in Information Technology Specialising in Software Engineering at SLIIT",
+    desc: "I graduated from SLIIT with a BSc (Hons) in Information Technology",
   },
 ];
 
@@ -327,7 +346,7 @@ export const projects = [
   },
   {
     id: 9,
-    title: "Uber eats clone",
+    title: "Uber Eats Clone",
     description:
       "This app app allows users to search for restaurants within a specified location using the Google place API, filter between delivery and pickup options, browse menus and add items to a cart which is saved even when the user exits the app. The total price is displayed and updates in real-time. When the user clicks the checkout button, the order details are added to a Firebase Firestore database and the user is taken to an order complete screen where they can view the items in their order. It is built using React Native, Redux, Firebase Yelp API and Google place API.",
     image:
@@ -335,5 +354,46 @@ export const projects = [
     tags: ["React Native", "Redux", "Firebase", "Yelp API", "Google place API"],
     category: "android app",
     github: "https://github.com/Sanjula-Dulshan/Uber-Eat-Clone",
+  },
+  {
+    id: 10,
+    title: "Task Management",
+    description:
+      "Task Management is a web application that allows users to manage their tasks. It is built using Next js, Node js, Mongo DB, Express js and Typescript",
+    image:
+      "https://res.cloudinary.com/waste123/image/upload/v1704185539/portfolio/trlk7oziqjj543avuhkm.png",
+    tags: ["Next Js", "Node Js", "MongoDB", "Express Js", "Typescript"],
+    category: "web app",
+    github: "https://github.com/Sanjula-Dulshan/Task-Management-CDAZZDEV",
+  },
+  {
+    id: 11,
+    title: "Share File",
+    description:
+      "Share File is a web application that allows users can upload a file and share the link with friend or directly mail the link to anyone. It is built using Next js, Node js, Mongo DB, Express js and Typescript",
+    image:
+      "https://res.cloudinary.com/waste123/image/upload/v1704186236/portfolio/wwrs3ffannucli1sbwmv.png",
+    tags: ["Next Js", "Node Js", "MongoDB", "Express Js", "Typescript"],
+    category: "web app",
+    github: "https://github.com/Sanjula-Dulshan/File-Share",
+  },
+  {
+    id: 12,
+    title: "MangoWise",
+    description:
+      "This is the our final year research project. Our main objective is to  identify and analyze challenges faced in mango cultivation to maximize profits. Int this app we provide facilities to determining the optimal timing for budding, identifying suitable varieties, managing diseases, proper fertilization, and knowledge dissemination gaps, with the goal of providing recommendations for improving cultivation practices and profitability.",
+    image:
+      "https://res.cloudinary.com/waste123/image/upload/v1704195163/portfolio/eq6u0lti4gsz5hlubsgg.jpg",
+    tags: [
+      "React Native",
+      "Node Js",
+      "MongoDB",
+      "Express Js",
+      "YOLOv8",
+      "Machine Learning",
+      "Google Cloud",
+    ],
+    category: "android app",
+    github: "https://github.com/Sanjula-Dulshan/MangoWise",
   },
 ];
