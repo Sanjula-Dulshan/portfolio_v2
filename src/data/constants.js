@@ -11,7 +11,7 @@ export const Bio = {
   github: "https://github.com/Sanjula-Dulshan",
   hackerRank: "https://www.hackerrank.com/profile/sdulshan10",
   resume:
-    "https://drive.google.com/file/d/1cIrNMAB7v5Z0w8LoFd0UmZ44CRa_wPO-/view?usp=sharing",
+    "https://drive.google.com/file/d/17YKdxbir9YT8pEbhX9_BO9W0h0D6u6c7/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/sanjula-dulshan-154329203/",
 
   whatsapp: "https://api.whatsapp.com/send?phone=94719647830",
