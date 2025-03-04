@@ -223,6 +223,15 @@ export const experiences = [
     desc: "Working on Web application using Angular, NestJS, and MongoDB",
     skills: ["Angular", "Nest Js", "MongoDB", "Git Lab", "Agile"],
   },
+  {
+    id: 3,
+    img: "https://res.cloudinary.com/waste123/image/upload/v1735556305/portfolio/Icons/pvgafjhcnvei76kkyzpd.jpg",
+    role: "Associate Software Engineer",
+    company: "i-wonder sri lanka",
+    date: "March 2024 - Present",
+    desc: "Working on Web application using .Net, C#, Angular, SQL and MongoDB",
+    skills: ["Angular", ".Net","C#", "MongoDB", "SQL", "Azure"],
+  },
 ];
 
 export const education = [
